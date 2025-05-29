@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1019371551247",
+    "project_id": "math-hero-brain-battle",
+    "storage_bucket": "math-hero-brain-battle.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019371551247:android:b67edad88522bb5131017a",
+        "android_client_info": {
+          "package_name": "com.nexbridge.mathshero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLLvVCZKLpX2-UdM7srPRoSJ1c0WZEak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019371551247:android:6f3f94d30d55495731017a",
+        "android_client_info": {
+          "package_name": "com.nexbridgetech.MathHero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLLvVCZKLpX2-UdM7srPRoSJ1c0WZEak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

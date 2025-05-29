@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compileSdkVersion = 34
+        minSdkVersion = 22
+        targetSdkVersion = 34
+        kotlin_version = '1.9.23' // Example version, ensure it matches project needs
+        android_gradle_plugin_version = '8.2.0' // Example version
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$android_gradle_plugin_version"
+        // classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // If using Kotlin directly in buildscripts
+        // Adding Google Services plugin classpath here
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+// The problematic 'plugins' block for google-services is removed from here.
+// The plugin is applied in android/app/build.gradle and found via the classpath above.
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // Add other repositories like jcenter() if needed, though jcenter is deprecated
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
